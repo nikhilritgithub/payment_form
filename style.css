@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+ body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px 30px;
+    font-size: 15px;
+    padding: 10px;
+
+ }
+  .card-type{
+   height: 40px;
+   width 30px;
+  }
+ .container{
+    background-color: darkgrey;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+ }
+
+ input[type="text"],
+ input[type="email"],
+ input[type="number"],
+ input[type="password"],
+ input[type="date"],
+ select,
+ textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    margin: 10px solid;
+
+ }
+
+ input[type="submit"]{
+    background-color: #4daea1;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+ }
+
+ input[type="submit"]:hover{
+    background-color: #4caf4c;
+ }
+
+h1{
+    color: white;
+    background-color: black;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    padding: 20px 15px 30px 25px;
+
+}
+p{
+    color: black;
+}
+h2{
+    border-color: black;
+    text-transform: uppercase;
+    text-decoration: solid;
+}
+.mark{
+   color: darkred;
+}
